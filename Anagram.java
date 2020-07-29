@@ -4,24 +4,24 @@ import java.util.Scanner;
 public class Anagram {
     public static boolean anagramCheck(char[] str1, char[] str2)
     {
-        /*int lengthStr1 = str1.length;
+        int lengthStr1 = str1.length;
         int lengthStr2 = str2.length;
 
         if (lengthStr1 != lengthStr2) {
             return false;
         }
-*/
+
 
         Arrays.sort(str1);
         Arrays.sort(str2);
 
-      /*  for (int i = 0; i < lengthStr1; i++) {
+        for (int i = 0; i < lengthStr1; i++) {
             if (str1[i] != str2[i]) {
                 return false;
             }
         }
-        return true;*/
-        return Arrays.equals(str1,str2);
+        return true;
+    
     }
 
     public static void main(String args[])
