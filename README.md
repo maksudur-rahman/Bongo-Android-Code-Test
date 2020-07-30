@@ -16,7 +16,7 @@ boolean has_gas()
 }
 ```
 a) Explain how you can use the pattern to create car and plane class?
-b) Use a different design pattern for this solution.
+\n b) Use a different design pattern for this solution.
 
 ## 3) 
 Write a video player application with ‘Play’, ‘Forward’, ‘Rewind’ functionalities. Please
